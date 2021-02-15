@@ -98,6 +98,7 @@ public class TicTacToe {
                 else {
                     turn = "X";
                 }
+                moves++;
                 printBoard();
                 winner = checkWinner();
             }
